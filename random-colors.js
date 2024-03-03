@@ -17,6 +17,7 @@
  * `create_square` function is responsible for creating the square div elements with random colors and
  * appending them to an element with the id "
  */
+
 function random_color(inferior, superior) {
 	let numPosibilidades = superior - inferior;
 	let aleatorio = Math.random() * numPosibilidades;
