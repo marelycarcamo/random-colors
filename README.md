@@ -2,6 +2,9 @@
 
 Este proyecto genera 150 cuadrados de colores aleatorios cuando se hace clic en un botón. Los colores se generan completamente al azar sin el uso de arreglos.
 
+https://marelycarcamo.github.io/random-colors/
+
+
 ## Funcionalidad
 
 Al hacer clic en el botón con el ID "btn-color", se crean 150 cuadrados con colores de fondo aleatorios. Cada cuadrado tiene una altura y ancho de 100 píxeles.
