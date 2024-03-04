@@ -1,0 +1,5 @@
+/* Estilos para el efecto :hover */
+#box-square div:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}

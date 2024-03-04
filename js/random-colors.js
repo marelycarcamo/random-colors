@@ -2,7 +2,6 @@
 
 // AUTHOR: MARELY
 
-
 /**
  * The JavaScript code generates 150 random colored squares when a button is clicked.
  * @param inferior - The `inferior` parameter in the `random_color` function represents the lower limit
@@ -18,6 +17,8 @@
  * appending them to an element with the id "
  */
 
+
+
 function random_color(inferior, superior) {
 	let numPosibilidades = superior - inferior;
 	let aleatorio = Math.random() * numPosibilidades;
@@ -32,7 +33,7 @@ function create_square() {
 		const g = random_color(0, 255);
 		const b = random_color(0, 255);
 		const colorRGB = `rgb(${r}, ${g}, ${b})`;
-		let square = `<div style="height: 100px; width: 100px; background-color:${colorRGB};"></div>`;
+		let square = `<div id="id-square" class="m-1" style="height: 100px; width: 100px; background-color:${colorRGB};"></div>`;
 		$("#box-square").append(square);
 		i++;
 	}
@@ -44,3 +45,4 @@ $(document).ready(function () {
 		create_square();
 	});
 });
+
